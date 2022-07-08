@@ -1,0 +1,50 @@
+/* npx tailwindcss -i ./assets/css/input.css -o ./assets/css/styles.css --watch */
+
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+.bb-text-monument-black {
+    font-family: "pp_monument_extendedblack", sans-serif;
+}
+
+.bb-text-outline {
+    color: rgba(0, 0, 0, 0.0);
+    -webkit-text-stroke: 1px white;
+    /* -webkit-text-fill-color: white; */
+}
+
+@font-face {
+  font-family: "pp_monument_extendedblack";
+  src: url("fonts/ppmonumentextended-black-webfont.woff2") format("woff2"),
+    url("fonts/ppmonumentextended-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "pp_monument_extendedregular";
+  src: url("fonts/ppmonumentextended-regular-webfont.woff2") format("woff2"),
+    url("fonts/ppmonumentextended-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "pp_monument_extendedlight";
+  src: url("fonts/ppmonumentextended-light-webfont.woff2") format("woff2"),
+    url("fonts/ppmonumentextended-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

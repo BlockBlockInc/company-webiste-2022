@@ -1,0 +1,21 @@
+{
+  "name": "block:block",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/styles.css --watch",
+    "serve": "npx browser-sync start --server --files '*.html, assets/css/*.css, js/*.js'",
+    "start": "npm run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlockBlockInc/company-webiste-2022.git"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  },
+  "author": "Maxx Crawford",
+  "license": "ISC"
+}
