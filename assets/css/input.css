@@ -53,3 +53,7 @@ html {
   background-color: white;
   border-color: white;
 }
+
+.bios article.active {
+  display: block;
+}

@@ -5,33 +5,37 @@
     <title>block:block</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <script
+      src="https://kit.fontawesome.com/100e0b8a01.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
     <link rel="stylesheet" href="/assets/css/styles.css" />
   </head>
 
   <body class="bg-black">
-    <header class="bg-black py-6 sticky top-0 z-30">
+    <header id="" class="bg-black py-6 sticky top-0 z-30">
       <div
         class="container mx-auto max-w-screen-xl px-6 flex w-full justify-between text-white items-center"
       >
-        <a href="#">
+        <a href="#top">
           <img src="/assets/images/logo.svg" alt="block:block" />
         </a>
         <ul class="flex flex-row gap-6 items-center">
           <li class="hidden sm:block">
-            <a class="hover:underline" href="#">Who We Are</a>
+            <a class="hover:underline" href="#who">Who We Are</a>
           </li>
           <li>
             <a
               class="border border-white border-px rounded-full py-2 px-6 inline-block hover:bg-white hover:text-neutral-900 transition"
-              href="#"
+              href="#contact"
               >Contact Us</a
             >
           </li>
         </ul>
       </div>
     </header>
-    <main class="bg-black">
+    <main id="" class="bg-black">
       <section class="hero">
         <div
           class="min-h-[90vh] bg-center bg-no-repeat flex items-center px-6 relative"
@@ -41,7 +45,7 @@
             class="max-w-sm sm:max-w-lg md:max-w-md lg:max-w-3xl mx-auto w-full"
           >
             <h1
-            class="text-4xl sm:text-5xl lg:text-7xl text-white bb-text-monument-black mb-8"
+              class="text-4xl sm:text-5xl lg:text-7xl text-white bb-text-monument-black mb-8"
             >
               A Creative
               <span class="block w-full text-right bb-text-outline"
@@ -52,702 +56,852 @@
               Building NFTs and DAOs
             </p>
           </div>
-          <button id="arrowDown"
+          <button
+            id="arrowDown"
             class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center"
           >
             <img src="/assets/images/arrow.svg" alt="" />
           </button>
         </div>
       </section>
-      <div class="rotator relative overscroll-contain">
+      <div class="rotator relative overscroll-contain scroll-smooth">
         <nav class="left-4 absolute -translate-y-1/2 top-1/2 z-10">
-            <ul class="list-none p-0 m-0 flex flex-col gap-1 items-start side-nav">
-                <li>
-                    <a href="#meebits-dao" class="active block w-4 h-4 border border-4 border-[#2F2F2F] bg-transparent rounded-full hover:bg-white hover:border-white"></a>
-                </li>
-                <li>
-                    <a href="#savage-droids" class="block w-4 h-4 border border-4 border-[#2F2F2F] bg-transparent rounded-full hover:bg-white hover:border-white"></a>
-                </li>
-                <li>
-                    <a href="#kryptosign" class="block w-4 h-4 border border-4 border-[#2F2F2F] bg-transparent rounded-full hover:bg-white hover:border-white"></a>
-                </li>
-                <li>
-                    <a href="#boss-beauties" class="block w-4 h-4 border border-4 border-[#2F2F2F] bg-transparent rounded-full hover:bg-white hover:border-white"></a>
-                </li>
-                <li>
-                    <a href="#super-geisha" class="block w-4 h-4 border border-4 border-[#2F2F2F] bg-transparent rounded-full hover:bg-white hover:border-white"></a>
-                </li>
-                <li>
-                    <a href="#lobby3" class="block w-4 h-4 border border-4 border-[#2F2F2F] bg-transparent rounded-full hover:bg-white hover:border-white"></a>
-                </li>
-                <li>
-                    <a href="#mxtter" class="block w-4 h-4 border border-4 border-[#2F2F2F] bg-transparent rounded-full hover:bg-white hover:border-white"></a>
-                </li>
-                <li>
-                    <a href="#mantial" class="block w-4 h-4 border border-4 border-[#2F2F2F] bg-transparent rounded-full hover:bg-white hover:border-white"></a>
-                </li>
-                <li>
-                    <a href="#new-here" class="block w-4 h-4 border border-4 border-[#2F2F2F] bg-transparent rounded-full hover:bg-white hover:border-white"></a>
-                </li>
-            </ul>
+          <ul
+            class="list-none p-0 m-0 flex flex-col gap-1 items-start side-nav"
+          >
+            <li>
+              <a
+                href="#meebits-dao"
+                class="active block w-4 h-4 border border-4 border-[#2F2F2F] bg-transparent rounded-full hover:bg-white hover:border-white"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="#savage-droids"
+                class="block w-4 h-4 border border-4 border-[#2F2F2F] bg-transparent rounded-full hover:bg-white hover:border-white"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="#kryptosign"
+                class="block w-4 h-4 border border-4 border-[#2F2F2F] bg-transparent rounded-full hover:bg-white hover:border-white"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="#boss-beauties"
+                class="block w-4 h-4 border border-4 border-[#2F2F2F] bg-transparent rounded-full hover:bg-white hover:border-white"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="#super-geisha"
+                class="block w-4 h-4 border border-4 border-[#2F2F2F] bg-transparent rounded-full hover:bg-white hover:border-white"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="#lobby3"
+                class="block w-4 h-4 border border-4 border-[#2F2F2F] bg-transparent rounded-full hover:bg-white hover:border-white"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="#mxtter"
+                class="block w-4 h-4 border border-4 border-[#2F2F2F] bg-transparent rounded-full hover:bg-white hover:border-white"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="#mantial"
+                class="block w-4 h-4 border border-4 border-[#2F2F2F] bg-transparent rounded-full hover:bg-white hover:border-white"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="#new-here"
+                class="block w-4 h-4 border border-4 border-[#2F2F2F] bg-transparent rounded-full hover:bg-white hover:border-white"
+              ></a>
+            </li>
+          </ul>
         </nav>
 
-        <div id="" class="projects overflow-scroll max-h-screen h-full">
-            
-            <!-- Meebits DAO -->
-            <section id="meebits-dao" class="relative z-0">
+        <div id="" class="projects overflow-scroll max-h-screen h-full scroll-smooth">
+          <!-- Meebits DAO -->
+          <section id="meebits-dao" class="relative z-0">
             <div
-                class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative bg-cover"
-                style="
+              class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative bg-cover"
+              style="
                 background-image: url('assets/images/section-overlay.svg'),
-                    url('assets/images/bg-meebits.jpg');">
-                <div class="max-w-screen-xl px-6 w-full mx-auto block relative z-10">
-                <div class="max-w-2xl w-full text-white flex flex-col gap-6">
-                    <!-- Project -->
-                    <div class="mb-2">Project <span>01</span>/09</div>
-
-                    <!-- Title -->
-                    <h2
-                    class="text-4xl sm:text-5xl lg:text-7xl text-white bb-text-monument-black mb-2"
-                    >
-                    Meebits
-                    <span class="block w-full bb-text-outline">DAO</span>
-                    </h2>
-
-                    <!-- Tags -->
-                    <ul class="list-none p-0 m-0 flex gap-x-4">
-                    <li
-                        class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
-                    >
-                        DAO
-                    </li>
-                    <li
-                        class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
-                    >
-                        NFT
-                    </li>
-                    </ul>
-
-                    <!-- Description -->
-                    <p class="max-w-md leading-releaxes">
-                    We are the principal sponsor and building the backend for
-                    MeebitsDAO, an independent community and development fund for
-                    the Meebits ecosystem.
-                    </p>
-
-                    <!-- CTA -->
-                    <div>
-                    <a
-                        class="inline-block border border-white border-px rounded-full py-2 px-6 hover:bg-white hover:text-neutral-900 transition"
-                        href="#"
-                        >Visit Site</a
-                    >
-                    </div>
-
-                </div>
-                </div>
-            </div>
-                                <button id=""
-            class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition"
-          >
-            <img src="/assets/images/arrow.svg" alt="" />
-          </button>
-
-            </section>
-            <!-- Savage Droids -->
-            <section id="savage-droids" class="relative z-0">
-            <div
-                class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative bg-cover"
-                style="
-                background-image: url('assets/images/section-overlay.svg'),
-                    url('assets/images/bg-savage-droids.jpg');">
-                <div
+                  url('assets/images/bg-meebits.jpg');
+              "
+            >
+              <div
                 class="max-w-screen-xl px-6 w-full mx-auto block relative z-10"
-                >
+              >
                 <div class="max-w-2xl w-full text-white flex flex-col gap-6">
-                    <!-- Project -->
-                    <div class="mb-2">Project <span>02</span>/09</div>
+                  <!-- Project -->
+                  <div class="mb-2">Project <span>01</span>/09</div>
 
+                  <a href="#meebits-dao">
                     <!-- Title -->
                     <h2
-                    class="text-4xl sm:text-5xl lg:text-7xl text-white bb-text-monument-black mb-2"
+                      class="text-4xl sm:text-5xl lg:text-7xl text-white bb-text-monument-black mb-2"
                     >
-                    Savage
-                    <span class="block w-full bb-text-outline">Droids</span>
+                      Meebits
+                      <span class="block w-full bb-text-outline">DAO</span>
                     </h2>
-
-                    <!-- Tags -->
-                    <ul class="list-none p-0 m-0 flex gap-x-4">
+                  </a>
+                  <!-- Tags -->
+                  <ul class="list-none p-0 m-0 flex gap-x-4">
                     <li
-                        class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
+                      class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
                     >
-                        DAO
+                      DAO
                     </li>
                     <li
-                        class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
+                      class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
                     >
-                        NFT
+                      NFT
                     </li>
-                    </ul>
+                  </ul>
 
-                    <!-- Description -->
-                    <p class="max-w-md leading-releaxes">
+                  <!-- Description -->
+                  <p class="max-w-md leading-releaxes">
                     We are the principal sponsor and building the backend for
-                    MeebitsDAO, an independent community and development fund for
-                    the Meebits ecosystem.
-                    </p>
+                    MeebitsDAO, an independent community and development fund
+                    for the Meebits ecosystem.
+                  </p>
 
-                    <!-- CTA -->
-                    <div>
+                  <!-- CTA -->
+                  <div>
                     <a
-                        class="inline-block border border-white border-px rounded-full py-2 px-6 hover:bg-white hover:text-neutral-900 transition"
-                        href="#"
-                        >Visit Site</a
+                      class="inline-block border border-white border-px rounded-full py-2 px-6 hover:bg-white hover:text-neutral-900 transition"
+                      href="#"
+                      >Visit Site</a
                     >
-                    </div>
-
+                  </div>
                 </div>
-                </div>
+              </div>
             </div>
-                                <button id=""
-            class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition"
-          >
-            <img src="/assets/images/arrow.svg" alt="" />
-          </button>
-
-            </section>
-            <!-- Kryptosign -->
-            <section id="kryptosign" class="relative z-0">
+            <button
+              id=""
+              class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition"
+            >
+              <img src="/assets/images/arrow.svg" alt="" />
+            </button>
+          </section>
+          <!-- Savage Droids -->
+          <section id="savage-droids" class="relative z-0">
             <div
-                class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative bg-cover"
-                style="
+              class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative bg-cover"
+              style="
                 background-image: url('assets/images/section-overlay.svg'),
-                    url('assets/images/bg-kryptosign.jpg');">
-                <div
+                  url('assets/images/bg-savage-droids.jpg');
+              "
+            >
+              <div
                 class="max-w-screen-xl px-6 w-full mx-auto block relative z-10"
-                >
+              >
                 <div class="max-w-2xl w-full text-white flex flex-col gap-6">
-                    <!-- Project -->
-                    <div class="mb-2">Project <span>03</span>/09</div>
+                  <!-- Project -->
+                  <div class="mb-2">Project <span>02</span>/09</div>
 
+                  <a href="#savage-droids">
                     <!-- Title -->
                     <h2
-                    class="text-4xl sm:text-5xl lg:text-7xl text-white bb-text-monument-black mb-2"
+                      class="text-4xl sm:text-5xl lg:text-7xl text-white bb-text-monument-black mb-2"
                     >
-                    Kryptosign
-                    <span class="block w-full bb-text-outline">.io</span>
+                      Savage
+                      <span class="block w-full bb-text-outline">Droids</span>
                     </h2>
-
-                    <!-- Tags -->
-                    <ul class="list-none p-0 m-0 flex gap-x-4">
+                  </a>
+                  <!-- Tags -->
+                  <ul class="list-none p-0 m-0 flex gap-x-4">
                     <li
-                        class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
+                      class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
                     >
-                        DAO
+                      DAO
                     </li>
                     <li
-                        class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
+                      class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
                     >
-                        NFT
+                      NFT
                     </li>
-                    </ul>
+                  </ul>
 
-                    <!-- Description -->
-                    <p class="max-w-md leading-releaxes">
+                  <!-- Description -->
+                  <p class="max-w-md leading-releaxes">
                     We are the principal sponsor and building the backend for
-                    MeebitsDAO, an independent community and development fund for
-                    the Meebits ecosystem.
-                    </p>
+                    MeebitsDAO, an independent community and development fund
+                    for the Meebits ecosystem.
+                  </p>
 
-                    <!-- CTA -->
-                    <div>
+                  <!-- CTA -->
+                  <div>
                     <a
-                        class="inline-block border border-white border-px rounded-full py-2 px-6 hover:bg-white hover:text-neutral-900 transition"
-                        href="#"
-                        >Visit Site</a
+                      class="inline-block border border-white border-px rounded-full py-2 px-6 hover:bg-white hover:text-neutral-900 transition"
+                      href="#"
+                      >Visit Site</a
                     >
-                    </div>
-
+                  </div>
                 </div>
-                </div>
+              </div>
             </div>
-                                <button id=""
-            class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition"
-          >
-            <img src="/assets/images/arrow.svg" alt="" />
-          </button>
-
-            </section>
-            <!-- Boss Beauties -->
-            <section id="boss-beauties" class="relative z-0">
+            <button
+              id=""
+              class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition"
+            >
+              <img src="/assets/images/arrow.svg" alt="" />
+            </button>
+          </section>
+          <!-- Kryptosign -->
+          <section id="kryptosign" class="relative z-0">
             <div
-                class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative bg-cover"
-                style="
+              class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative bg-cover"
+              style="
                 background-image: url('assets/images/section-overlay.svg'),
-                    url('assets/images/bg-boss-beauties.jpg');">
-                <div
+                  url('assets/images/bg-kryptosign.jpg');
+              "
+            >
+              <div
                 class="max-w-screen-xl px-6 w-full mx-auto block relative z-10"
-                >
+              >
                 <div class="max-w-2xl w-full text-white flex flex-col gap-6">
-                    <!-- Project -->
-                    <div class="mb-2">Project <span>04</span>/09</div>
+                  <!-- Project -->
+                  <div class="mb-2">Project <span>03</span>/09</div>
 
+                  <a href="#kryptosign">
                     <!-- Title -->
                     <h2
-                    class="text-4xl sm:text-5xl lg:text-7xl text-white bb-text-monument-black mb-2"
+                      class="text-4xl sm:text-5xl lg:text-7xl text-white bb-text-monument-black mb-2"
                     >
-                    Boss
-                    <span class="block w-full bb-text-outline">Beauties</span>
+                      Kryptosign
+                      <span class="block w-full bb-text-outline">.io</span>
                     </h2>
-
-                    <!-- Tags -->
-                    <ul class="list-none p-0 m-0 flex gap-x-4">
+                  </a>
+                  <!-- Tags -->
+                  <ul class="list-none p-0 m-0 flex gap-x-4">
                     <li
-                        class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
+                      class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
                     >
-                        DAO
+                      DAO
                     </li>
                     <li
-                        class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
+                      class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
                     >
-                        NFT
+                      NFT
                     </li>
-                    </ul>
+                  </ul>
 
-                    <!-- Description -->
-                    <p class="max-w-md leading-releaxes">
+                  <!-- Description -->
+                  <p class="max-w-md leading-releaxes">
                     We are the principal sponsor and building the backend for
-                    MeebitsDAO, an independent community and development fund for
-                    the Meebits ecosystem.
-                    </p>
+                    MeebitsDAO, an independent community and development fund
+                    for the Meebits ecosystem.
+                  </p>
 
-                    <!-- CTA -->
-                    <div>
+                  <!-- CTA -->
+                  <div>
                     <a
-                        class="inline-block border border-white border-px rounded-full py-2 px-6 hover:bg-white hover:text-neutral-900 transition"
-                        href="#"
-                        >Visit Site</a
+                      class="inline-block border border-white border-px rounded-full py-2 px-6 hover:bg-white hover:text-neutral-900 transition"
+                      href="#"
+                      >Visit Site</a
                     >
-                    </div>
-
+                  </div>
                 </div>
-                </div>
+              </div>
             </div>
-                                <button id=""
-            class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition"
-          >
-            <img src="/assets/images/arrow.svg" alt="" />
-          </button>
-
-            </section>
-            <!-- Super Geisha -->
-            <section id="super-geisha" class="relative z-0">
+            <button
+              id=""
+              class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition"
+            >
+              <img src="/assets/images/arrow.svg" alt="" />
+            </button>
+          </section>
+          <!-- Boss Beauties -->
+          <section id="boss-beauties" class="relative z-0">
             <div
-                class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative bg-cover"
-                style="
+              class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative bg-cover"
+              style="
                 background-image: url('assets/images/section-overlay.svg'),
-                    url('assets/images/bg-super-geisha.jpg');">
-                <div
+                  url('assets/images/bg-boss-beauties.jpg');
+              "
+            >
+              <div
                 class="max-w-screen-xl px-6 w-full mx-auto block relative z-10"
-                >
+              >
                 <div class="max-w-2xl w-full text-white flex flex-col gap-6">
-                    <!-- Project -->
-                    <div class="mb-2">Project <span>05</span>/09</div>
+                  <!-- Project -->
+                  <div class="mb-2">Project <span>04</span>/09</div>
 
+                  <a href="#boss-beauties">
                     <!-- Title -->
                     <h2
-                    class="text-4xl sm:text-5xl lg:text-7xl text-white bb-text-monument-black mb-2"
+                      class="text-4xl sm:text-5xl lg:text-7xl text-white bb-text-monument-black mb-2"
                     >
-                    Super
-                    <span class="block w-full bb-text-outline">Geisha</span>
+                      Boss
+                      <span class="block w-full bb-text-outline">Beauties</span>
                     </h2>
-
-                    <!-- Tags -->
-                    <ul class="list-none p-0 m-0 flex gap-x-4">
+                  </a>
+                  <!-- Tags -->
+                  <ul class="list-none p-0 m-0 flex gap-x-4">
                     <li
-                        class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
+                      class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
                     >
-                        DAO
+                      DAO
                     </li>
                     <li
-                        class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
+                      class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
                     >
-                        NFT
+                      NFT
                     </li>
-                    </ul>
+                  </ul>
 
-                    <!-- Description -->
-                    <p class="max-w-md leading-releaxes">
+                  <!-- Description -->
+                  <p class="max-w-md leading-releaxes">
                     We are the principal sponsor and building the backend for
-                    MeebitsDAO, an independent community and development fund for
-                    the Meebits ecosystem.
-                    </p>
+                    MeebitsDAO, an independent community and development fund
+                    for the Meebits ecosystem.
+                  </p>
 
-                    <!-- CTA -->
-                    <div>
+                  <!-- CTA -->
+                  <div>
                     <a
-                        class="inline-block border border-white border-px rounded-full py-2 px-6 hover:bg-white hover:text-neutral-900 transition"
-                        href="#"
-                        >Visit Site</a
+                      class="inline-block border border-white border-px rounded-full py-2 px-6 hover:bg-white hover:text-neutral-900 transition"
+                      href="#"
+                      >Visit Site</a
                     >
-                    </div>
-
+                  </div>
                 </div>
-                </div>
+              </div>
             </div>
-                                <button id=""
-            class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition"
-          >
-            <img src="/assets/images/arrow.svg" alt="" />
-          </button>
-
-            </section>
-            <!-- Lobby3 -->
-            <section id="lobby3" class="relative z-0">
+            <button
+              id=""
+              class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition"
+            >
+              <img src="/assets/images/arrow.svg" alt="" />
+            </button>
+          </section>
+          <!-- Super Geisha -->
+          <section id="super-geisha" class="relative z-0">
             <div
-                class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative bg-cover"
-                style="
+              class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative bg-cover"
+              style="
                 background-image: url('assets/images/section-overlay.svg'),
-                    url('assets/images/bg-lobby3.jpg');">
-                <div
+                  url('assets/images/bg-super-geisha.jpg');
+              "
+            >
+              <div
                 class="max-w-screen-xl px-6 w-full mx-auto block relative z-10"
-                >
+              >
                 <div class="max-w-2xl w-full text-white flex flex-col gap-6">
-                    <!-- Project -->
-                    <div class="mb-2">Project <span>06</span>/09</div>
+                  <!-- Project -->
+                  <div class="mb-2">Project <span>05</span>/09</div>
 
+                  <a href="#super-geisha">
                     <!-- Title -->
                     <h2
-                    class="text-4xl sm:text-5xl lg:text-7xl text-white bb-text-monument-black mb-2"
+                      class="text-4xl sm:text-5xl lg:text-7xl text-white bb-text-monument-black mb-2"
                     >
-                    Lobby
-                    <span class="block w-full bb-text-outline">3</span>
+                      Super
+                      <span class="block w-full bb-text-outline">Geisha</span>
                     </h2>
-
-                    <!-- Tags -->
-                    <ul class="list-none p-0 m-0 flex gap-x-4">
+                  </a>
+                  <!-- Tags -->
+                  <ul class="list-none p-0 m-0 flex gap-x-4">
                     <li
-                        class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
+                      class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
                     >
-                        DAO
+                      DAO
                     </li>
                     <li
-                        class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
+                      class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
                     >
-                        NFT
+                      NFT
                     </li>
-                    </ul>
+                  </ul>
 
-                    <!-- Description -->
-                    <p class="max-w-md leading-releaxes">
+                  <!-- Description -->
+                  <p class="max-w-md leading-releaxes">
                     We are the principal sponsor and building the backend for
-                    MeebitsDAO, an independent community and development fund for
-                    the Meebits ecosystem.
-                    </p>
+                    MeebitsDAO, an independent community and development fund
+                    for the Meebits ecosystem.
+                  </p>
 
-                    <!-- CTA -->
-                    <div>
+                  <!-- CTA -->
+                  <div>
                     <a
-                        class="inline-block border border-white border-px rounded-full py-2 px-6 hover:bg-white hover:text-neutral-900 transition"
-                        href="#"
-                        >Visit Site</a
+                      class="inline-block border border-white border-px rounded-full py-2 px-6 hover:bg-white hover:text-neutral-900 transition"
+                      href="#"
+                      >Visit Site</a
                     >
-                    </div>
-
+                  </div>
                 </div>
-                </div>
+              </div>
             </div>
-                                <button id=""
-            class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition"
-          >
-            <img src="/assets/images/arrow.svg" alt="" />
-          </button>
-
-            </section>
-            <!-- Mxtter -->
-            <section id="mxtter" class="relative z-0">
+            <button
+              id=""
+              class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition"
+            >
+              <img src="/assets/images/arrow.svg" alt="" />
+            </button>
+          </section>
+          <!-- Lobby3 -->
+          <section id="lobby3" class="relative z-0">
             <div
-                class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative bg-cover"
-                style="
+              class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative bg-cover"
+              style="
                 background-image: url('assets/images/section-overlay.svg'),
-                    url('assets/images/bg-mxtter.jpg');">
-                <div
+                  url('assets/images/bg-lobby3.jpg');
+              "
+            >
+              <div
                 class="max-w-screen-xl px-6 w-full mx-auto block relative z-10"
-                >
+              >
                 <div class="max-w-2xl w-full text-white flex flex-col gap-6">
-                    <!-- Project -->
-                    <div class="mb-2">Project <span>07</span>/09</div>
+                  <!-- Project -->
+                  <div class="mb-2">Project <span>06</span>/09</div>
 
+                  <a href="#lobby3">
                     <!-- Title -->
                     <h2
-                    class="text-4xl sm:text-5xl lg:text-7xl text-white bb-text-monument-black mb-2"
+                      class="text-4xl sm:text-5xl lg:text-7xl text-white bb-text-monument-black mb-2"
                     >
-                    Mxtter
-                    <span class="block w-full bb-text-outline">.art</span>
+                      Lobby
+                      <span class="block w-full bb-text-outline">3</span>
                     </h2>
-
-                    <!-- Tags -->
-                    <ul class="list-none p-0 m-0 flex gap-x-4">
+                  </a>
+                  <!-- Tags -->
+                  <ul class="list-none p-0 m-0 flex gap-x-4">
                     <li
-                        class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
+                      class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
                     >
-                        DAO
+                      DAO
                     </li>
                     <li
-                        class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
+                      class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
                     >
-                        NFT
+                      NFT
                     </li>
-                    </ul>
+                  </ul>
 
-                    <!-- Description -->
-                    <p class="max-w-md leading-releaxes">
+                  <!-- Description -->
+                  <p class="max-w-md leading-releaxes">
                     We are the principal sponsor and building the backend for
-                    MeebitsDAO, an independent community and development fund for
-                    the Meebits ecosystem.
-                    </p>
+                    MeebitsDAO, an independent community and development fund
+                    for the Meebits ecosystem.
+                  </p>
 
-                    <!-- CTA -->
-                    <div>
+                  <!-- CTA -->
+                  <div>
                     <a
-                        class="inline-block border border-white border-px rounded-full py-2 px-6 hover:bg-white hover:text-neutral-900 transition"
-                        href="#"
-                        >Visit Site</a
+                      class="inline-block border border-white border-px rounded-full py-2 px-6 hover:bg-white hover:text-neutral-900 transition"
+                      href="#"
+                      >Visit Site</a
                     >
-                    </div>
-
+                  </div>
                 </div>
-                </div>
+              </div>
             </div>
-                                <button id=""
-            class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition"
-          >
-            <img src="/assets/images/arrow.svg" alt="" />
-          </button>
-
-            </section>
-            <!-- Mantai -->
-            <section id="mantial" class="relative z-0">
+            <button
+              id=""
+              class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition"
+            >
+              <img src="/assets/images/arrow.svg" alt="" />
+            </button>
+          </section>
+          <!-- Mxtter -->
+          <section id="mxtter" class="relative z-0">
             <div
-                class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative bg-cover"
-                style="
+              class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative bg-cover"
+              style="
                 background-image: url('assets/images/section-overlay.svg'),
-                    url('assets/images/bg-mantial.jpg');">
-                <div
+                  url('assets/images/bg-mxtter.jpg');
+              "
+            >
+              <div
                 class="max-w-screen-xl px-6 w-full mx-auto block relative z-10"
-                >
+              >
                 <div class="max-w-2xl w-full text-white flex flex-col gap-6">
-                    <!-- Project -->
-                    <div class="mb-2">Project <span>08</span>/09</div>
+                  <!-- Project -->
+                  <div class="mb-2">Project <span>07</span>/09</div>
 
+                  <a href="#mxtter">
                     <!-- Title -->
                     <h2
-                    class="text-4xl sm:text-5xl lg:text-7xl text-white bb-text-monument-black mb-2"
+                      class="text-4xl sm:text-5xl lg:text-7xl text-white bb-text-monument-black mb-2"
                     >
-                    Mantial
+                      Mxtter
+                      <span class="block w-full bb-text-outline">.art</span>
                     </h2>
-
-                    <!-- Tags -->
-                    <ul class="list-none p-0 m-0 flex gap-x-4">
+                  </a>
+                  <!-- Tags -->
+                  <ul class="list-none p-0 m-0 flex gap-x-4">
                     <li
-                        class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
+                      class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
                     >
-                        DAO
+                      DAO
                     </li>
                     <li
-                        class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
+                      class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
                     >
-                        NFT
+                      NFT
                     </li>
-                    </ul>
+                  </ul>
 
-                    <!-- Description -->
-                    <p class="max-w-md leading-releaxes">
+                  <!-- Description -->
+                  <p class="max-w-md leading-releaxes">
                     We are the principal sponsor and building the backend for
-                    MeebitsDAO, an independent community and development fund for
-                    the Meebits ecosystem.
-                    </p>
+                    MeebitsDAO, an independent community and development fund
+                    for the Meebits ecosystem.
+                  </p>
 
-                    <!-- CTA -->
-                    <div>
+                  <!-- CTA -->
+                  <div>
                     <a
-                        class="inline-block border border-white border-px rounded-full py-2 px-6 hover:bg-white hover:text-neutral-900 transition"
-                        href="#"
-                        >Visit Site</a
+                      class="inline-block border border-white border-px rounded-full py-2 px-6 hover:bg-white hover:text-neutral-900 transition"
+                      href="#"
+                      >Visit Site</a
                     >
-                    </div>
-
+                  </div>
                 </div>
-                </div>
+              </div>
             </div>
-                                <button id=""
-            class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition"
-          >
-            <img src="/assets/images/arrow.svg" alt="" />
-          </button>
-
-            </section>
-            <!-- New Here -->
-            <section id="new-here" class="relative z-0">
+            <button
+              id=""
+              class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition"
+            >
+              <img src="/assets/images/arrow.svg" alt="" />
+            </button>
+          </section>
+          <!-- Mantai -->
+          <section id="mantial" class="relative z-0">
             <div
-                class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative bg-cover"
-                style="
+              class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative bg-cover"
+              style="
                 background-image: url('assets/images/section-overlay.svg'),
-                    url('assets/images/bg-new-here.jpg');">
-                <div
+                  url('assets/images/bg-mantial.jpg');
+              "
+            >
+              <div
                 class="max-w-screen-xl px-6 w-full mx-auto block relative z-10"
-                >
+              >
                 <div class="max-w-2xl w-full text-white flex flex-col gap-6">
-                    <!-- Project -->
-                    <div class="mb-2">Project <span>09</span>/09</div>
+                  <!-- Project -->
+                  <div class="mb-2">Project <span>08</span>/09</div>
 
+                  <a href="#mantial">
                     <!-- Title -->
                     <h2
-                    class="text-4xl sm:text-5xl lg:text-7xl text-white bb-text-monument-black mb-2"
+                      class="text-4xl sm:text-5xl lg:text-7xl text-white bb-text-monument-black mb-2"
                     >
-                    New
-                    <span class="block w-full bb-text-outline">Here</span>
+                      Mantial
                     </h2>
-
-                    <!-- Tags -->
-                    <ul class="list-none p-0 m-0 flex gap-x-4">
+                  </a>
+                  <!-- Tags -->
+                  <ul class="list-none p-0 m-0 flex gap-x-4">
                     <li
-                        class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
+                      class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
                     >
-                        DAO
+                      DAO
                     </li>
                     <li
-                        class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
+                      class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
                     >
-                        NFT
+                      NFT
                     </li>
-                    </ul>
+                  </ul>
 
-                    <!-- Description -->
-                    <p class="max-w-md leading-releaxes">
+                  <!-- Description -->
+                  <p class="max-w-md leading-releaxes">
                     We are the principal sponsor and building the backend for
-                    MeebitsDAO, an independent community and development fund for
-                    the Meebits ecosystem.
-                    </p>
+                    MeebitsDAO, an independent community and development fund
+                    for the Meebits ecosystem.
+                  </p>
 
-                    <!-- CTA -->
-                    <div>
+                  <!-- CTA -->
+                  <div>
                     <a
-                        class="inline-block border border-white border-px rounded-full py-2 px-6 hover:bg-white hover:text-neutral-900 transition"
-                        href="#"
-                        >Visit Site</a
+                      class="inline-block border border-white border-px rounded-full py-2 px-6 hover:bg-white hover:text-neutral-900 transition"
+                      href="#"
+                      >Visit Site</a
                     >
-                    </div>
-
+                  </div>
                 </div>
-                </div>
+              </div>
             </div>
-                                <button id=""
-            class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition"
-          >
-            <img src="/assets/images/arrow.svg" alt="" />
-          </button>
+            <button
+              id=""
+              class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition"
+            >
+              <img src="/assets/images/arrow.svg" alt="" />
+            </button>
+          </section>
+          <!-- New Here -->
+          <section id="new-here" class="relative z-0">
+            <div
+              class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative bg-cover"
+              style="
+                background-image: url('assets/images/section-overlay.svg'),
+                  url('assets/images/bg-new-here.jpg');
+              "
+            >
+              <div
+                class="max-w-screen-xl px-6 w-full mx-auto block relative z-10"
+              >
+                <div class="max-w-2xl w-full text-white flex flex-col gap-6">
+                  <!-- Project -->
+                  <div class="mb-2">Project <span>09</span>/09</div>
 
-            </section>
+                  <a href="#new-here">
+                    <!-- Title -->
+                    <h2
+                      class="text-4xl sm:text-5xl lg:text-7xl text-white bb-text-monument-black mb-2"
+                    >
+                      New
+                      <span class="block w-full bb-text-outline">Here</span>
+                    </h2>
+                  </a>
+                  <!-- Tags -->
+                  <ul class="list-none p-0 m-0 flex gap-x-4">
+                    <li
+                      class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
+                    >
+                      DAO
+                    </li>
+                    <li
+                      class="inline-block py-1 px-4 text-white bg-[#2F2F2F] rounded-md"
+                    >
+                      NFT
+                    </li>
+                  </ul>
 
+                  <!-- Description -->
+                  <p class="max-w-md leading-releaxes">
+                    We are the principal sponsor and building the backend for
+                    MeebitsDAO, an independent community and development fund
+                    for the Meebits ecosystem.
+                  </p>
 
+                  <!-- CTA -->
+                  <div>
+                    <a
+                      class="inline-block border border-white border-px rounded-full py-2 px-6 hover:bg-white hover:text-neutral-900 transition"
+                      href="#"
+                      >Visit Site</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              id=""
+              class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition"
+            >
+              <img src="/assets/images/arrow.svg" alt="" />
+            </button>
+          </section>
         </div>
       </div>
       <!-- Who We Are -->
       <section id="who">
         <div
-          class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative" style="background-image: url('assets/images/bg-who.svg'); background-size: 25%;">
-          <div class="max-w-screen-xl px-6 w-full mx-auto block relative z-10">
+          class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative"
+          style="
+            background-image: url('assets/images/bg-who.svg');
+            background-size: clamp(200px, 25%, 400px);
+          "
+        >
+          <div
+            class="max-w-screen-xl px-6 w-full mx-auto block relative z-10 md:min-h-[500px]"
+          >
             <div class="w-full text-white flex flex-col gap-6">
               <!-- Title -->
-              <h2 class="text-4xl sm:text-5xl lg:text-7xl text-white bb-text-monument-black mb-8">
-                Who We Are
-              </h2>
+              <a href="#who">
+                <h2
+                  class="text-4xl sm:text-5xl lg:text-7xl text-white bb-text-monument-black mb-8"
+                >
+                  Who We Are
+                </h2>
+              </a>
               <div class="flex flex-col md:flex-row gap-16">
                 <div class="w-full max-w-sm sm:w-96 shrink-0">
-                    <ul class="grid grid-cols-5 gap-4 w-full">
-                        <li>
-                            <button class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-red-500 block appearance-none"></button
-                        </li>
-                        <li>
-                            <button class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-red-500 block appearance-none"></button
-                        </li>
-                        <li>
-                            <button class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-red-500 block appearance-none"></button
-                        </li>
-                        <li>
-                            <button class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-red-500 block appearance-none"></button
-                        </li>
-                        <li>
-                            <button class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-red-500 block appearance-none"></button
-                        </li>
-                        <li>
-                            <button class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-red-500 block appearance-none"></button
-                        </li>
-                        <li>
-                            <button class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-red-500 block appearance-none"></button
-                        </li>
-                        <li>
-                            <button class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-red-500 block appearance-none"></button
-                        </li>
-                        <li>
-                            <button class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-red-500 block appearance-none"></button
-                        </li>
-                        <li>
-                            <button class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-red-500 block appearance-none"></button
-                        </li>
-                        <li>
-                            <button class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-red-500 block appearance-none"></button
-                        </li>
-                        <li>
-                            <button class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-red-500 block appearance-none"></button
-                        </li>
-                        <li>
-                            <button class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-red-500 block appearance-none"></button
-                        </li>
-                        <li>
-                            <button class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-red-500 block appearance-none"></button
-                        </li>
-                        <li>
-                            <button class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-red-500 block appearance-none"></button
-                        </li>
-                        <li>
-                            <button class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-red-500 block appearance-none"></button
-                        </li>
-                        <li>
-                            <button class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-red-500 block appearance-none"></button
-                        </li>
-                        <li>
-                            <button class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-red-500 block appearance-none"></button
-                        </li>
-                        <li>
-                            <button class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-red-500 block appearance-none"></button
-                        </li>
-                        <li>
-                            <button class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-red-500 block appearance-none"></button
-                        </li>
-                        <li>
-                            <button class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-red-500 block appearance-none"></button
-                        </li>
-                        <li>
-                            <button class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-red-500 block appearance-none"></button
-                        </li>
-                        <li>
-                            <button class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-red-500 block appearance-none"></button
-                        </li>
-                        <li>
-                            <button class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-red-500 block appearance-none"></button
-                        </li>
-                        <li>
-                            <button class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-red-500 block appearance-none"></button
-                        </li>
-                    </ul>
+                  <ul class="grid grid-cols-5 gap-4 w-full people">
+                    <li>
+                      <button
+                        data-person="bart"
+                        class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-red-500 block appearance-none outline outline-white"
+                      ></button>
+                    </li>
+                    <li>
+                      <button
+                        data-person="mark"
+                        class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-blue-500 block appearance-none"
+                      ></button>
+                    </li>
+                    <li>
+                      <button
+                        data-person="kai"
+                        class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-green-500 block appearance-none"
+                      ></button>
+                    </li>
+                    <li>
+                      <button
+                        data-person="carly"
+                        class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-yellow-500 block appearance-none"
+                      ></button>
+                    </li>
+                    <li>
+                      <button
+                        data-person="luke"
+                        class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-orange-500 block appearance-none"
+                      ></button>
+                    </li>
+                    <li>
+                      <button
+                        data-person="neo"
+                        class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-teal-500 block appearance-none"
+                      ></button>
+                    </li>
+                    <li>
+                      <button
+                        data-person="ryan"
+                        class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-pink-500 block appearance-none"
+                      ></button>
+                    </li>
+                    <li>
+                      <button
+                        data-person="josh"
+                        class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-lime-500 block appearance-none"
+                      ></button>
+                    </li>
+                    <li>
+                      <button
+                        data-person="mateo"
+                        class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-purple-500 block appearance-none"
+                      ></button>
+                    </li>
+                    <li>
+                      <button
+                        data-person="zach"
+                        class="rounded-full overflow-hidden w-12 h-12 sm:w-16 sm:h-16 bg-rose-500 block appearance-none"
+                      ></button>
+                    </li>
+                  </ul>
                 </div>
-                <div class="max-w-sm shrink">
-                    <article>
-                        <h3 class="text-lg mb-4">Bart</h3>
-                        <p class="leading-relaxed">Bart built 25 #1 App Store hits and ran smartphone games for Disney. He cofounded the Mozilla Builders incubator and headed marketing and business affairs for Firefox 1.0. He has a long track record in open source, community work and activism (including as an Echoing Green fellow). Occasional angel investor (MUBI, Hooked).</p>
-                    </article>
+                <div class="max-w-sm shrink bios">
+                  <article class="hidden active" id="bart">
+                    <h3 class="text-lg mb-4">Bart</h3>
+                    <p class="leading-relaxed">
+                      Bart built 25 #1 App Store hits and ran smartphone games
+                      for Disney. He cofounded the Mozilla Builders incubator
+                      and headed marketing and business affairs for Firefox 1.0.
+                      He has a long track record in open source, community work
+                      and activism (including as an Echoing Green fellow).
+                      Occasional angel investor (MUBI, Hooked).
+                    </p>
+                  </article>
+                  <article class="hidden" id="mark">
+                    <h3 class="text-lg mb-4">Mark</h3>
+                    <p class="leading-relaxed">
+                      Cofounder. Mark was previously Chief Product Officer for
+                      Mozilla and steward of Firefox for the Quantum launch. He
+                      served as CTO for cloud computing pioneer Joyent
+                      (containers, Node.js), and has been the technical
+                      cofounder at multiple early startups.
+                    </p>
+                  </article>
+                  <article class="hidden" id="kai">
+                    <h3 class="text-lg mb-4">Kai</h3>
+                    <p class="leading-relaxed">
+                      Cofounder. Kai most recently was in Experience Design at
+                      Netflix, working closely with content creators and product
+                      owners to create special experiences on the platform.
+                      Before that, he worked at Sony Pictures Entertainment. Kai
+                      discovered NFTs in 2017 when he cracked the CryptoKitties
+                      genetic code, and has filed three related patents. He is
+                      the founder of the MeebitsDAO project.
+                    </p>
+                  </article>
+                  <article class="hidden" id="carly">
+                    <h3 class="text-lg mb-4">Carly</h3>
+                    <p class="leading-relaxed">
+                      Chief of Staff. Carly Reilly is an entrepreneur, political
+                      commentator, and fundraiser. Carly joined Andrew Yang’s
+                      2020 presidential campaign in August 2018 and helped raise
+                      over $40 million as national finance director. She is a
+                      Washington Post contributor, a co-host of the Yang Speaks
+                      podcast, and has been featured by Bloomberg News.
+                    </p>
+                  </article>
+                  <article class="hidden" id="luke">
+                    <h3 class="text-lg mb-4">Luke</h3>
+                    <p class="leading-relaxed">
+                      Creative Director. Luke has spent the last 20 years
+                      working as a creative at Wunderman, McCann, MRM, Publicis,
+                      and Digitas LBi, among other advertising giants. He was
+                      fortunate to spend two of those years traveling the world
+                      with Hyper Island, training advertising agencies on
+                      building agile management teams that solve for constant
+                      digital and social change.
+                    </p>
+                  </article>
+                  <article class="hidden" id="neo">
+                    <h3 class="text-lg mb-4">Neo</h3>
+                    <p class="leading-relaxed">
+                      Developer. Neo is currently taking a gap year from the
+                      University of Central Florida, where he studies computer
+                      science, to work with Block::Block. He enjoys building and
+                      iterating on new ideas and is excited about jumping into
+                      the world of Web3 and crypto. He spends his free time at
+                      hackathons.
+                    </p>
+                  </article>
+                  <article class="hidden" id="ryan">
+                    <h3 class="text-lg mb-4">Ryan</h3>
+                    <p class="leading-relaxed">
+                      Technical Advisor. Ryan Ouyang is an engineer. A recovered
+                      hackathon addict with 10+ wins, Ryan has been a finalist
+                      at 3 ETHGlobal events and operated in and built blockchain
+                      apps for the biggest companies in Canada. He is currently
+                      working on a new NFT wearables system, as well as a new
+                      blockchain game.
+                    </p>
+                  </article>
+                  <article class="hidden" id="josh">
+                    <h3 class="text-lg mb-4">Josh</h3>
+                    <p class="leading-relaxed">
+                      Engineer. Josh is a Web3 software engineer. He comes from
+                      a TradFi background, previously working at Capital One
+                      Labs (in-house product incubator & innovation lab) where
+                      he led crypto exploration efforts. Active NFT and crypto
+                      enthusiast.
+                    </p>
+                  </article>
+                  <article class="hidden" id="mateo">
+                    <h3 class="text-lg mb-4">Mateo</h3>
+                    <p class="leading-relaxed">
+                      EIR. Mateo founded his first company at age 16. Recently
+                      he won first prize among 400+ competitors in a startup
+                      competition organized by the BBVA Bank. He is now starting
+                      his next adventure in what he believes to be the most
+                      significant thing since the internet: blockchain. Mateo is
+                      our first EIR.
+                    </p>
+                  </article>
+                  <article class="hidden" id="zach">
+                    <h3 class="text-lg mb-4">Zach</h3>
+                    <p class="leading-relaxed">
+                      Community Manager. Zach is a computer science graduate
+                      from Shepherd University. He has won multiple writing
+                      competitions and served in several leadership roles in
+                      college. With a deep interest in the mass adoption of
+                      blockchain technologies, Zach is using his community
+                      skills and knowledge of the industry to build toward that
+                      future.
+                    </p>
+                  </article>
                 </div>
               </div>
             </div>
@@ -758,18 +912,50 @@
       <section id="contact">
         <div
           class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative bg-cover"
-          style="background-image: url('assets/images/bg-contact.svg'); background-size: 25%;">
+          style="
+            background-image: url('assets/images/bg-contact.svg');
+            background-size: clamp(200px, 25%, 400px);
+          "
+        >
           <div class="max-w-screen-xl px-6 w-full mx-auto block relative z-10">
             <div class="max-w-2xl w-full text-white flex flex-col gap-6">
               <!-- Title -->
-              <h2 class="text-4xl sm:text-5xl lg:text-7xl text-white bb-text-monument-black mb-8">
-                Contact Us
-              </h2>
+              <a href="#contact">
+                <h2
+                  class="text-4xl sm:text-5xl lg:text-7xl text-white bb-text-monument-black mb-8"
+                >
+                  Contact Us
+                </h2>
+              </a>
               <p class="max-w-md leading-releaxes">
-                If you’d like to work with us on any future projects or just want to reach out, hit us up on:
+                If you’d like to work with us on any future projects or just
+                want to reach out, hit us up on:
               </p>
+              <div class="mb-2">
+                <a
+                  class="inline-block border border-white border-px rounded-full py-2 px-6 hover:bg-white hover:text-neutral-900 transition"
+                  href="#"
+                  >ifno@blockblock.io</a
+                >
+              </div>
               <div>
-                <a class="inline-block border border-white border-px rounded-full py-2 px-6 hover:bg-white hover:text-neutral-900 transition" href="#">ifno@blockblock.io</a>
+                <ul class="list-none flex gap-6">
+                  <li>
+                    <a class="hover:text-zinc-200 text-white" href=""
+                      ><i class="fa-xl fab fa-twitter"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a class="hover:text-zinc-200 text-white" href=""
+                      ><i class="fa-xl fa-brands fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a class="hover:text-zinc-200 text-white" href=""
+                      ><i class="fa-xl fak fa-open-sea"></i
+                    ></a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
