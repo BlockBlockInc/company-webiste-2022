@@ -85,13 +85,13 @@
       "click",
       (el) => {
         document
-          .querySelector(".people button.outline")
-          .classList.remove("outline");
+          .querySelector(".people button.ring")
+          .classList.remove("ring");
         document
-          .querySelector(".people button.outline-white")
-          .classList.remove("outline-white");
-        el.target.classList.add("outline");
-        el.target.classList.add("outline-white");
+          .querySelector(".people button.ring-white")
+          .classList.remove("ring-white");
+        el.target.classList.add("ring");
+        el.target.classList.add("ring-white");
         console.log(el.target.dataset.person);
         document
           .querySelector(".bios article.active")
