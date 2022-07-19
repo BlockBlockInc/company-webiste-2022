@@ -51,9 +51,13 @@
         const targetLink = [...sideNavLinks].filter((el) => {
           return el.hash == filterHref;
         });
+        if (document.querySelector(".side-nav a.active") && targetLink[0]) {
+            document.querySelector(".side-nav a.active").classList.remove("active");
+            targetLink[0].classList.add("active");
+        }
+        
+        console.log("entry.target", entry.target);
         entry.target.scrollIntoView({ behavior: "smooth" });
-        document.querySelector(".side-nav a.active").classList.remove("active");
-        targetLink[0].classList.add("active");
       }
     });
   }
@@ -76,7 +80,7 @@
 
   const rotator = document.querySelector(".rotator");
 
-  observer2.observe(rotator);
+//   observer2.observe(rotator);
 
   const people = document.querySelectorAll(".people button");
 
