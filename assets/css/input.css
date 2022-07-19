@@ -48,3 +48,8 @@ html {
   font-weight: normal;
   font-style: normal;
 }
+
+.side-nav a.active {
+  background-color: white;
+  border-color: white;
+}
