@@ -36,10 +36,7 @@
     threshold: 0.5,
   };
 
-  let observerOption2 = {
-    rootMargin: "0px",
-    threshold: 0.75,
-  };
+  
 
   const observer = new IntersectionObserver(observerCallback, observerOptions);
   const sideNavLinks = document.querySelectorAll(".side-nav a");
@@ -57,20 +54,21 @@
         }
         
         console.log("entry.target", entry.target);
-        entry.target.scrollIntoView({ behavior: "smooth" });
+        // entry.target.scrollIntoView({ behavior: "smooth" });
       }
     });
   }
 
-  const observer2 = new IntersectionObserver(observerCallback, observerOption2);
+  // const observer2 = new IntersectionObserver(observerCallback, observerOption2);
 
-  function observerCallback2(entries, observer) {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.scrollIntoView({ behavior: "smooth" });
-      }
-    });
-  }
+  // function observerCallback2(entries, observer) {
+  //   entries.forEach((entry) => {
+  //     if (entry.isIntersecting) {
+  //       console.log("observerCallback2", entry.target);
+  //       // entry.target.scrollIntoView({ behavior: "smooth" });
+  //     }
+  //   });
+  // }
 
   document.querySelectorAll(".projects section").forEach((i) => {
     if (i) {
@@ -78,9 +76,40 @@
     }
   });
 
-  const rotator = document.querySelector(".rotator");
+  // const observerRotator = new IntersectionObserver(entries => {
+    
+    
+    
+  // })
 
-//   observer2.observe(rotator);
+  // const options = {
+  //   threshold: 0
+  // }
+
+  function handleIntersection(entries) {
+    const rotatorNav = document.querySelector(".rotator .rotator-nav")
+    entries.forEach(entry => {
+      // const intersecting = entry.isIntersecting
+      // entry.target.style.backgroundColor = intersecting ? "blue" : "orange"
+      if (entry.isIntersecting) {
+        rotatorNav.classList.add("fixed");
+        rotatorNav.classList.remove("hidden");
+      } else {
+        console.log("!entry.isIntersecting: ", entry);
+        rotatorNav.classList.remove("fixed");
+        rotatorNav.classList.add("hidden");
+
+      }
+    })
+  }
+
+  const observerRotator = new IntersectionObserver(handleIntersection);
+  
+  observerRotator.observe(document.querySelector(".rotator"));
+
+  // const rotator = document.querySelector(".rotator");
+
+  // observer2.observe(rotator);
 
   const people = document.querySelectorAll(".people button");
 
