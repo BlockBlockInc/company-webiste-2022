@@ -68,3 +68,15 @@ html {
   height: fill-available;
   height: -webkit-fill-available;
 }
+
+.section-overlay::after {
+  content: "";
+  position: absolute;
+  display: block;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url(/assets/images/section-overlay.svg);
+}
