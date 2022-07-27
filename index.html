@@ -36,8 +36,8 @@
         </ul>
       </div>
     </header>
-    <div class="rotator-nav fixed w-8 h-64 -translate-y-1/2 top-1/2 top-0 left-4 z-40">
-      <nav class=" -translate-y-1/2 top-1/2 absolute left-0 ">
+    <div class="rotator-nav fixed w-8 h-64 -translate-y-1/2 top-1/2 left-2 z-40">
+      <nav class=" -translate-y-1/2 top-1/2 absolute left-2 ">
         <ul
           class="list-none p-0 m-0 flex flex-col gap-1 items-start side-nav"
         >
@@ -119,14 +119,14 @@
     <main id="" class="bg-black">
       <section id="hero" class="hero">
         <div
-          class="min-h-[100vh] bg-center bg-no-repeat flex items-center px-6 relative"
+          class="min-h-screen bg-center bg-no-repeat flex items-center relative"
           style="background-image: url(/assets/images/bg-hero.svg)"
         >
           <div
-            class="max-w-sm sm:max-w-lg md:max-w-md lg:max-w-3xl mx-auto w-full"
+            class="max-w-sm sm:max-w-lg md:max-w-md lg:max-w-3xl mx-auto w-full px-6"
           >
             <h1
-              class="text-4xl sm:text-5xl lg:text-7xl text-white bb-text-monument-black mb-12"
+              class="w-full text-3xl sm:text-5xl lg:text-7xl text-white bb-text-monument-black mb-12"
             >
               A Creative
               <span class="block w-full text-right bb-text-outline"
@@ -140,21 +140,21 @@
               <a class="underline hover:bg-white hover:text-black inline-block" href="#">Hit us up.</a>
             </p>
           </div>
+          
           <button
-            id=""
-            class="js-arrow-down appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center"
-          >
-            <img src="/assets/images/arrow.svg" alt="" />
-          </button>
+          id=""
+          class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition z-20"
+        >
+          <img src="/assets/images/arrow.svg" alt="" />
+        </button>
         </div>
       </section>
       <!-- Meebits DAO -->
       <section id="meebits-dao" class="relative z-0">
         <div
-          class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative bg-cover"
+          class="min-h-screen w-full bg-center bg-no-repeat flex items-center bg-black relative bg-cover section-overlay px-6"
           style="
-            background-image: url('assets/images/section-overlay.svg'),
-              url('assets/images/bg-meebits.jpg');
+            background-image: url('assets/images/bg-meebits.jpg');
           "
         >
           <div
@@ -205,7 +205,7 @@
         </div>
         <button
           id=""
-          class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition"
+          class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition z-20"
         >
           <img src="/assets/images/arrow.svg" alt="" />
         </button>
@@ -213,10 +213,9 @@
       <!-- Savage Droids -->
       <section id="savage-droids" class="relative z-0">
         <div
-          class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative bg-cover"
+          class="min-h-screen w-full bg-center bg-no-repeat flex items-center bg-black relative bg-cover section-overlay px-6"
           style="
-            background-image: url('assets/images/section-overlay.svg'),
-              url('assets/images/bg-savage-droids.jpg');
+            background-image: url('assets/images/bg-savage-droids.jpg');
           "
         >
           <div
@@ -267,7 +266,7 @@
         </div>
         <button
           id=""
-          class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition"
+          class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition z-20"
         >
           <img src="/assets/images/arrow.svg" alt="" />
         </button>
@@ -275,10 +274,9 @@
       <!-- Kryptosign -->
       <section id="kryptosign" class="relative z-0">
         <div
-          class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative bg-cover"
+          class="min-h-screen w-full bg-center bg-no-repeat flex items-center bg-black relative bg-cover section-overlay px-6"
           style="
-            background-image: url('assets/images/section-overlay.svg'),
-              url('assets/images/bg-kryptosign.jpg');
+            background-image: url('assets/images/bg-kryptosign.jpg');
           "
         >
           <div
@@ -291,7 +289,7 @@
               <a href="#kryptosign">
                 <!-- Title -->
                 <h2
-                  class="text-4xl sm:text-5xl lg:text-7xl text-white bb-text-monument-black mb-2"
+                  class="text-3xl sm:text-5xl lg:text-7xl text-white bb-text-monument-black mb-2"
                 >
                   Kryptosign
                   <span class="block w-full bb-text-outline">.io</span>
@@ -330,7 +328,7 @@
         </div>
         <button
           id=""
-          class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition"
+          class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition z-20"
         >
           <img src="/assets/images/arrow.svg" alt="" />
         </button>
@@ -338,10 +336,9 @@
       <!-- Boss Beauties -->
       <section id="boss-beauties" class="relative z-0">
         <div
-          class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative bg-cover"
+          class="min-h-screen w-full bg-center bg-no-repeat flex items-center bg-black relative bg-cover section-overlay px-6"
           style="
-            background-image: url('assets/images/section-overlay.svg'),
-              url('assets/images/bg-boss-beauties.jpg');
+            background-image: url('assets/images/bg-boss-beauties.jpg');
           "
         >
           <div
@@ -388,7 +385,7 @@
         </div>
         <button
           id=""
-          class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition"
+          class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition z-20"
         >
           <img src="/assets/images/arrow.svg" alt="" />
         </button>
@@ -396,10 +393,9 @@
       <!-- Super Geisha -->
       <section id="super-geisha" class="relative z-0">
         <div
-          class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative bg-cover"
+          class="min-h-screen w-full bg-center bg-no-repeat flex items-center bg-black relative bg-cover section-overlay px-6"
           style="
-            background-image: url('assets/images/section-overlay.svg'),
-              url('assets/images/bg-super-geisha.jpg');
+            background-image: url('assets/images/bg-super-geisha.jpg');
           "
         >
           <div
@@ -451,7 +447,7 @@
         </div>
         <button
           id=""
-          class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition"
+          class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition z-20"
         >
           <img src="/assets/images/arrow.svg" alt="" />
         </button>
@@ -459,7 +455,7 @@
       <!-- Lobby3 -->
       <section id="lobby3" class="relative z-0">
         <div
-          class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative bg-cover section-overlay"
+          class="min-h-screen w-full bg-center bg-no-repeat flex items-center bg-black relative bg-cover section-overlay px-6"
           style="
             background-image: url('assets/images/bg-lobby3.jpg');
           "
@@ -512,7 +508,7 @@
         </div>
         <button
           id=""
-          class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition"
+          class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition z-20"
         >
           <img src="/assets/images/arrow.svg" alt="" />
         </button>
@@ -520,10 +516,9 @@
       <!-- Mxtter -->
       <section id="mxtter" class="relative z-0">
         <div
-          class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative bg-cover"
+          class="min-h-screen w-full bg-center bg-no-repeat flex items-center bg-black relative bg-cover section-overlay px-6"
           style="
-            background-image: url('assets/images/section-overlay.svg'),
-              url('assets/images/bg-mxtter.jpg');
+            background-image: url('assets/images/bg-mxtter.jpg');
           "
         >
           <div
@@ -579,7 +574,7 @@
         </div>
         <button
           id=""
-          class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition"
+          class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition z-20"
         >
           <img src="/assets/images/arrow.svg" alt="" />
         </button>
@@ -587,10 +582,9 @@
       <!-- Mantai -->
       <section id="mantial" class="relative z-0">
         <div
-          class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative bg-cover"
+          class="min-h-screen w-full bg-center bg-no-repeat flex items-center bg-black relative bg-cover section-overlay px-6"
           style="
-            background-image: url('assets/images/section-overlay.svg'),
-              url('assets/images/bg-mantial.jpg');
+            background-image: url('assets/images/bg-mantial.jpg');
           "
         >
           <div
@@ -640,7 +634,7 @@
         </div>
         <button
           id=""
-          class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition"
+          class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition z-20"
         >
           <img src="/assets/images/arrow.svg" alt="" />
         </button>
@@ -648,10 +642,9 @@
       <!-- New Here -->
       <section id="new-here" class="relative z-0">
         <div
-          class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative bg-cover"
+          class="min-h-screen w-full bg-center bg-no-repeat flex items-center bg-black relative bg-cover section-overlay px-6"
           style="
-            background-image: url('assets/images/section-overlay.svg'),
-              url('assets/images/bg-new-here.jpg');
+            background-image: url('assets/images/bg-new-here.jpg');
           "
         >
           <div
@@ -703,7 +696,7 @@
         </div>
         <button
           id=""
-          class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition"
+          class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition z-20"
         >
           <img src="/assets/images/arrow.svg" alt="" />
         </button>
@@ -711,7 +704,7 @@
       <!-- Who We Are -->
       <section id="who" class="relative z-0">
         <div
-          class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative"
+          class="min-h-screen w-full bg-center bg-no-repeat flex items-center bg-black relative bg-cover px-6"
           style="
             background-image: url('assets/images/bg-who.svg');
             background-size: clamp(200px, 25%, 400px);
@@ -976,7 +969,7 @@
         </div>
         <button
           id=""
-          class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition"
+          class="appearance-none absolute bottom-8 left-1/2 -translate-x-1/2 hover:bg-neutral-900/75 rounded-full w-16 h-16 flex items-center justify-center js-arrow-down transition z-20"
         >
           <img src="/assets/images/arrow.svg" alt="" />
         </button>
@@ -984,7 +977,7 @@
       <!-- Contact Us -->
       <section id="contact" class="relative z-0">
         <div
-          class="min-h-[100vh] w-full bg-center bg-no-repeat flex items-center px-6 bg-black relative bg-cover"
+          class="min-h-screen w-full bg-center bg-no-repeat flex items-center bg-black relative bg-cover px-6"
           style="
             background-image: url('assets/images/bg-contact.svg');
             background-size: clamp(200px, 25%, 400px);
@@ -997,7 +990,7 @@
                 <h2
                   class="text-4xl sm:text-5xl lg:text-7xl text-white bb-text-monument-black mb-8"
                 >
-                  Contact&nbsp;Us
+                  Contact Us
                 </h2>
               </a>
               <p class="max-w-md leading-releaxes">
