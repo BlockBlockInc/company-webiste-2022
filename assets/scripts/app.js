@@ -25,7 +25,7 @@
           whoSection.scrollIntoView({ behavior: "smooth" });
           return;
         }
-        nextSection.scrollIntoView({ behavior: "smooth" });
+        nextSection.scrollIntoView({ behavior: "smooth", alignToTop: true});
       },
       false
     );
