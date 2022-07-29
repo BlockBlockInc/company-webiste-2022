@@ -663,6 +663,10 @@ video {
   margin-bottom: 3rem;
 }
 
+.ml-4 {
+  margin-left: 1rem;
+}
+
 .ml-auto {
   margin-left: auto;
 }
@@ -677,10 +681,6 @@ video {
 
 .mb-4 {
   margin-bottom: 1rem;
-}
-
-.ml-4 {
-  margin-left: 1rem;
 }
 
 .block {
@@ -1159,10 +1159,6 @@ html {
     min-height: 500px;
   }
 
-  .md\:max-w-md {
-    max-width: 28rem;
-  }
-
   .md\:max-w-lg {
     max-width: 32rem;
   }
@@ -1175,10 +1171,6 @@ html {
 @media (min-width: 1024px) {
   .lg\:max-w-3xl {
     max-width: 48rem;
-  }
-
-  .lg\:max-w-4xl {
-    max-width: 56rem;
   }
 
   .lg\:text-7xl {
