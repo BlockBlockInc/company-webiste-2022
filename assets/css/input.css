@@ -49,11 +49,6 @@ html {
   font-style: normal;
 }
 
-.side-nav a.active {
-  background-color: white;
-  border-color: white;
-}
-
 .bios article.active {
   display: block;
 }
@@ -90,4 +85,9 @@ html {
   background-repeat: none;
   background-size: cover;
   background-image: url(/assets/images/section-overlay.svg);
+}
+
+.side-nav a:hover span, .side-nav a.active span {
+  border-color: white;
+  background-color: white;
 }
