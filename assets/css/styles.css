@@ -671,12 +671,12 @@ video {
   margin-left: auto;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .mb-4 {
@@ -715,12 +715,12 @@ video {
   height: 4rem;
 }
 
-.h-\[350px\] {
-  height: 350px;
+.h-2\.5 {
+  height: 0.625rem;
 }
 
-.h-\[370px\] {
-  height: 370px;
+.h-2 {
+  height: 0.5rem;
 }
 
 .min-h-screen {
@@ -745,6 +745,14 @@ video {
 
 .w-16 {
   width: 4rem;
+}
+
+.w-2\.5 {
+  width: 0.625rem;
+}
+
+.w-2 {
+  width: 0.5rem;
 }
 
 .max-w-screen-xl {
@@ -853,8 +861,8 @@ video {
   gap: 2rem;
 }
 
-.gap-12 {
-  gap: 3rem;
+.gap-3 {
+  gap: 0.75rem;
 }
 
 .overflow-hidden {
@@ -879,6 +887,10 @@ video {
 
 .border-4 {
   border-width: 4px;
+}
+
+.border-2 {
+  border-width: 2px;
 }
 
 .border-white {
@@ -951,10 +963,6 @@ video {
   padding-right: 1rem;
 }
 
-.pb-24 {
-  padding-bottom: 6rem;
-}
-
 .pb-36 {
   padding-bottom: 9rem;
 }
@@ -968,14 +976,14 @@ video {
   line-height: 2.25rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .font-light {
@@ -1141,11 +1149,6 @@ html {
 .hover\:text-black:hover {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.hover\:text-zinc-200:hover {
-  --tw-text-opacity: 1;
-  color: rgb(228 228 231 / var(--tw-text-opacity));
 }
 
 .hover\:text-zinc-300:hover {
